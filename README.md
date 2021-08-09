@@ -1,4 +1,4 @@
-# rust-tonic-grpc-rocket-svc
+# Rust (Tonic Rust gPRC Toolkit) Google gRPC Rocket Launcher Web Service
 Rust (Google gRPC using Rust Tonic gRPC Toolkit) Web Service (Rocket Launch Web Service)
 
 ## Overview of the Service
