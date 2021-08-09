@@ -7,7 +7,7 @@ This Rust client and server using Google gRPC uses the gPRC HTTP/2 protocol and 
 
 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/isgo-golgo13/rust-tonic-grpc-rocket-svc/blob/main/docs/protocol-buffers-grpc-workflow.png)
 
 
 
