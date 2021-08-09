@@ -7,10 +7,21 @@ package rockets;
 // service which can be executed
 service RocketLauncher {
 // function which can be called
+  //Pre-launch API
+  rpc SendPreLaunch(PrepareRocketLaunchSeqRequest) returns (PrepareRocketLaunchSeqResponse);
   rpc Send (RocketLaunchRequest) returns (RocketLaunchResponse);
   rpc SendStream(RocketLaunchRequest) returns (stream RocketLaunchResponse);
   rpc ReceiveStream(stream RocketLaunchRequest) returns (RocketLaunchResponse);
   rpc Bidirectional(stream RocketLaunchRequest) returns (stream RocketLaunchResponse);
+}
+
+
+message  PrepareRocketLaunchSeqRequest {
+  string preLaunchSeq = 1;
+}
+
+message PrepareRocketLaunchSeqResponse {
+  string preLaunchResp = 1;
 }
 
 // argument
