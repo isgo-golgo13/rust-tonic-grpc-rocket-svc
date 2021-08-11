@@ -1,0 +1,25 @@
+[package]
+name = "rust-tonic-grpc-rocket-svc"
+version = "0.1.0"
+authors = ["Tomas Wallick <wallick.tom@gmail.com>"]
+edition = "2018"
+
+
+[[bin]]
+name =  "grpc-rocket-svc-client"
+path = "src/client/client.rs"
+
+[[bin]]
+name = "grpc-rocket-svc-server"
+path = "src/server/server.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prost = "0.8.0"
+tonic = {version="0.5.2", features = ["tls"]}
+tokio = "1.9.0"
+futures = "0.3.16"
+
+[build-dependencies]
+tonic-build = "0.5.2"
