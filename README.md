@@ -12,13 +12,5 @@ This Rust client and server using Google gRPC uses the gPRC HTTP/2 protocol and 
 ## Table of Contents  
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
-
-## Directory Structure for the Service
-
-```
 
